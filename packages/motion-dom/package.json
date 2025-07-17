@@ -17,7 +17,8 @@
         }
     },
     "dependencies": {
-        "motion-utils": "^12.23.6"
+        "motion-utils": "^12.23.6",
+        "pixi.js": "^8.11.0"
     },
     "scripts": {
         "clean": "rm -rf types dist lib",
