@@ -19,6 +19,7 @@ export const frameloopDriver: Driver = (update) => {
 }
  const frameloopDriverPixi: Driver = (update) => {
     const ticker = new Ticker();
+    ticker.autoStart = true;
 
     const passTimestamp = ({ deltaTime }: Ticker) => {
         // TODO: Convert deltaTime to timestamp
